@@ -6,14 +6,14 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\User;
 
-class UserCountTest extends TestCase
+class UpdateUserTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testUserCountTest()
+    public function testUpdateUserTest()
     {
         $user= User::all();
         $this->assertGreaterThanOrEqual(0, count($user));
