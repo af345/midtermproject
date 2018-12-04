@@ -1,9 +1,7 @@
 <?php
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-
 class CreateCarsTable extends Migration
 {
     /**
@@ -19,10 +17,8 @@ class CreateCarsTable extends Migration
             $table->string('Make');
             $table->string('Model');
             $table->date('Year');
-
         });
     }
-
     /**
      * Reverse the migrations.
      *
