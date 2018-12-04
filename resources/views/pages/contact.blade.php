@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="card mt - 3 pl-2 pr-2">
-        <div class="card-title"><h1><b>Welcome to our Contact Page.</b></h1>
+        <div class="card-title"><h1><b>Hi, Welcome to our Contact Page!</b></h1>
             <p class="lead">Please use the form and phone number on this site to contact the site owner for
                 sponsorship <br> or if you have any questions about laravel</p></div>
         <div class="card-body">
