@@ -1,21 +1,17 @@
 <!doctype html>
 <html lang="en">
 
-@include('includes.head')
+@include('Includes.head')
 
 <body>
+@include('Includes.menu')
 
-<div class="container">
-    <header>
-        @include('includes.menu')
-    </header>
-    <main role="main">
-        @yield('content')
-    </main>
-    @include('includes.jsfooter')
-    <footer>
-        @include('includes.footer')
-    </footer>
-</div>
+<main role="main">
+    @yield('content')
+</main>
+
+@include('Includes.jsfooter')
+@include('Includes.footer')
+
 </body>
 </html>
